@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.todo {
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  background-color: #343838;
+  border-radius: 6px;
+  border: 3px solid #d0e0eb;
+  box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 25px;
+  min-width: 350px;
+  padding: 10px;
+}
+
+.todo__title {
+  background-color: #49708a;
+  border-radius: 6px;
+  color: #f0d399;
+  font-size: 2rem;
+  padding: 4px;
+}
+
+.todo__details {
+  color: #f0d399;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+.todo__button {
+  background-color: #ff4e50;
+  border-radius: 6px;
+  color: #f0d399;
+  font-size: 0.7rem;
+  left: 305px;
+  padding: 5px;
+  position: relative;
+  top: -110px;
+}
+
+.todo__button:hover {
+  cursor: pointer;
+}
+
+.form {
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  background-color: #343838;
+  border-radius: 6px;
+  border: 3px solid #d0e0eb;
+  box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  color: #f0d399;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.form__button {
+  background-color: #49708a;
+  border-radius: 6px;
+  color: #febf97;
+  font-size: 0.9rem;
+}
+
+.form__button:hover {
+  cursor: pointer;
+}
